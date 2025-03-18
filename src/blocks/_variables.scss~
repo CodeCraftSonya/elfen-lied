@@ -1,3 +1,29 @@
-$base-color: #c6538c;
+$primary: #AE97E8;
+$secondary1: #FA8FEF;
+$secondary2: #AECFFF;
+$accent: #D9FF5A;
+$delete: #7964AE;
 
-@forward "variables";
+$mainFont: 'Euclid', sans-serif;
+$accentFont: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+$baseFontSize: 20px;
+$baseFontColor: white;
+
+//$category1: #83FA9D;
+//$category2: #FAD883;
+//$category3: #B783FA;
+//$category4: #83DDFA;
+//$category5: #FAA083;
+//
+//$mainFontSize: 1.5em;
+//$titleFontSize: 2.5em;
+//$headerElementsSize: 4.5rem;
+//$headerHeight: 9rem;
+//
+//$maxPageWidth: 1320px;
+//$defaultPadding: 2.4rem;
+//
+//$defaultBorderRadius: 3rem;
+//$defaultBorder: 2px solid $primaryLight;
+//$hoverBorder: 2px solid white;
+//$overlayBackground: rgba(0, 0, 0, 0.8);

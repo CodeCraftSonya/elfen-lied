@@ -1,8 +1,16 @@
+
+@use "../fonts/index";
 @use "../blocks/variables" as vars;
 
 
 body {
-  background-color: vars.$base-color;
+  background-color: vars.$primary;
+}
+h1 {
+  font-family: vars.$mainFont;
+}
+h2{
+  font-family: vars.$accentFont;
 }
 img{
     width: 400px;

@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Floreste";
+    src: url("../fonts/floreste/FloresteWavy.woff2") format("woff2"),
+    url("../fonts/floreste/FloresteWavy.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}

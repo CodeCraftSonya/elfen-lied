@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Euclid";
+    src: url("../fonts/euclid/Euclid-Circular-A-Medium.woff2") format("woff2"),
+    url("../fonts/euclid/Euclid-Circular-A-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
