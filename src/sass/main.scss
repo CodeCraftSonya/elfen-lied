@@ -1,0 +1,9 @@
+@use "../blocks/variables" as vars;
+
+
+body {
+  background-color: vars.$base-color;
+}
+img{
+    width: 400px;
+}
