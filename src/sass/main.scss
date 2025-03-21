@@ -1,7 +1,7 @@
-
-@use "../fonts/index";
-@use "../blocks/variables" as vars;
-
+@use '../fonts/index';
+@use '../blocks/variables' as vars;
+@use '../blocks/globals';
+@use '../blocks/header';
 
 body {
   background-color: vars.$primary;
@@ -9,9 +9,10 @@ body {
 h1 {
   font-family: vars.$mainFont;
 }
-h2{
+h2 {
   font-family: vars.$accentFont;
 }
-img{
-    width: 400px;
-}
+
+//img{
+//    width: 400px;
+//}

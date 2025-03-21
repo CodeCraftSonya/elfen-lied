@@ -16,25 +16,66 @@
           <img src="./assets/logo.svg" alt="Elfen Lied - Главная страница" />
         </a>
         <ul class="nav__list">
-          <li><a href="/catalog" class="nav__link">Каталог</a></li>
-          <li><a href="/blog" class="nav__link">Блог</a></li>
-          <li><a href="/contacts" class="nav__link">Контакты</a></li>
+          <li class="nav__list-item nav__list-item-catalog">
+            <a href="/catalog" class="nav__link">
+              <img class="points" src="./assets/icons/points.svg" />
+              Каталог</a
+            >
+          </li>
+          <li class="nav__list-item nav__list-item-blog">
+            <a href="/blog" class="nav__link">Блог</a>
+          </li>
+          <li class="nav__list-item nav__list-item-contacts">
+            <a href="/contacts" class="nav__link">Контакты</a>
+          </li>
+          <li class="nav__list-item nav__list-item-search">
+            <a href="/contacts" class="nav__link">
+              <img class="search" src="./assets/icons/search.svg" />
+              Поиск
+            </a>
+          </li>
         </ul>
         <div class="nav__icons">
-          <button class="nav__search">🔍 Поиск</button>
-          <button class="nav__user">👤</button>
-          <button class="nav__cart">🛒</button>
+          <button class="nav__favorite">
+            <img class="favorite" src="./assets/icons/favorite.svg" />
+          </button>
+          <button class="nav__user">
+            <img class="user" src="./assets/icons/profile.svg" />
+          </button>
+          <button class="nav__cart">
+            <img class="cart" src="./assets/icons/basket.svg" />
+          </button>
         </div>
       </nav>
+      <div class="header__day-product">
+        <div class="header__day-product-item header__day-product-item-active">
+          <p class="header__day-product-title">Товар дня</p>
+          <p class="header__day-product-back">benjamin moore</p>
+          <div class="header__day-product-main">
+            <div class="header__day-product-description">
+              <p class="header__day-product-description-title">Santa Trinita</p>
+              <p class="header__day-product-description-text">
+                Функциональная дизайнерская лампа для создания максимально
+                комфортного освещения
+              </p>
+              <p class="header__day-product-description-price">150000</p>
+            </div>
+            <div>
+              <p>Кнопка</p>
+            </div>
+          </div>
+        </div>
+        <div class="header__day-product-item">
+          <img />
+          <p></p>
+          <p></p>
+        </div>
+        <div class="header__day-product-item"></div>
+      </div>
     </header>
-    <main class="main"></main>
+    <main class="main">
+      <h2>категории</h2>
+    </main>
     <footer class="footer"></footer>
-    <h1>Hello World</h1>
-    <!--    <img src="" id="mainImage" />-->
-    <h2>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur
-      ipsum, laudantium nobis non nulla perspiciatis quae quam quas repudiandae
-      sit. A ab, dignissimos dolorum minima nulla possimus quod rem repudiandae.
-    </h2>
   </body>
 </html>
